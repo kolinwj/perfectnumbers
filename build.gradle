@@ -1,0 +1,30 @@
+group 'org.perfectnumbers'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+apply plugin: 'distribution'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = "codechallange.perfectnumbers.ApplicationMain"
+
+//sourceSets.main.java.srcDirs = ['src/main']
+
+dependencies {
+    compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.3.2'
+    compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http-jetty', version: '3.3.2'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.4'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.12.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.12.0'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.8'
+    compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-json-provider', version: '2.9.8'
+	compile group: 'junit', name: 'junit', version: '4.12'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+
