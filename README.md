@@ -35,7 +35,7 @@ Leverage Apache CXF and used singleton resource provider which returns the same 
 Used OOP concepts, encapsulation and inheritance to increase the code reusability and extensibility as well as the privacy of data in instances.   
 
 ###### Algorithm
-Researched the implementation of perfect number theory. Tried both iteration (using nested loops) as well as most recommended optimum approach of using mersenne prime numbers theory. Using iterations could only able to get 3rd perfect number in less than a minute. It took more time to get the 4th perfect time. Thus implemented using mersenne prime numbers algorithm 2n-1 (2n - 1). 
+Researched the implementation of perfect number theory. Tried both iteration (using nested loops) as well as most recommended optimum approach of using mersenne prime numbers theory. Using iterations could only able to get 3rd perfect number in less than a minute. It took more time to get the 4th perfect time. Thus implemented using mersenne prime numbers algorithm 2n-1 (2n - 1) which retuns 4th perfect number in subseconds. There could be some other algorithms exists which enhance the accuracy and timing this require further research.    
 
 ## Build and Run
 
