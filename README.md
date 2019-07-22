@@ -49,10 +49,10 @@ Used Junit(4) to implement unit and integration tests in the application. Both t
 
 ## Recommendations and further optimizations
 
-- Use static code analysis tool(Sonarqube) to optimize the code quality. This can be easily integrate to the CICD pipeline. 
+- Use static code analysis tool(Sonarqube) to optimize the code quality. This can be easily integrate to the CICD pipeline using gradle. 
 
 - Use Junit5 to enhance the testing capabilities. Below mentioned benefits are highlighted to enrich the application testability, quality and API to be more robust. 
-More methods being introduced to utilize for specific test scenarios in both functional and non functional. 
+More methods being introduced by Junit5 to utilize for specific test scenarios in both functional and non functional. 
   - BeforeEach/AfterEach
   - BeforeAll/AfterAll
   - assertThrows
