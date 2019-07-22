@@ -15,8 +15,8 @@ import codechallenge.perfectnumbers.core.PerfectNumberList;
  * @author kolin
  *
  * Test REST API, perfect numbers for given number range. Test Cases are,
- * 1. Having perfect numbers (Success)
- * 2. Not a valid request. Given number format issue
+ * 1. If there are perfect numbers then return perfect numbers
+ * 2. Not a valid request. Should return an error response 
  */
 
 public class PerfectNumbersBetweenRangeAPITest extends RestAPIIntegrationTest {

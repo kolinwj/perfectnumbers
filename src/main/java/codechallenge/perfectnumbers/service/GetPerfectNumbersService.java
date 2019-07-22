@@ -9,6 +9,10 @@ import codechallenge.perfectnumbers.exception.ErrorMessage;
 import codechallenge.perfectnumbers.service.Parameters;
 
 
+/**
+ * @author kolin
+ * 
+ */
 
 public class GetPerfectNumbersService implements IRestService<Parameters> {
 

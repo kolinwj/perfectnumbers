@@ -14,9 +14,9 @@ import static org.junit.Assert.*;
  * @author kolin
  *
  * Test REST API, is perfect number? Test Cases are,
- * 1. Is a perfect number (Success)
- * 2. Not a perfect number (Failed)
- * 3. Is a valid number (Failed). Number validity
+ * 1. Is a perfect number (Expect success)
+ * 2. Not a perfect number (Expect failed)
+ * 3. Is not a valid number (Expect failed). Number validity
  */
 
 public class perfectNumberAPITest extends RestAPIIntegrationTest {
