@@ -1,6 +1,6 @@
 # perfectnumbers
 
-Briefly describes the design and implementation of perfect number computation REST API based on the thought process having in mind thoughout the assignment.  
+Briefly describes the design and implementation of perfect number computation REST API based on the thought process having in mind throughout the assignment.  
 Listed technology stack, design, coding, testing , CICD, further enhancements, limitations and recommendations.  
 
 ###### Technology Stack
@@ -13,7 +13,7 @@ Listed technology stack, design, coding, testing , CICD, further enhancements, l
 
 ## REST Service 
 
-Used Apache CXF to implement the REST API service. Defined and developed below mentioned two REST APIs to perform the given specific tasks separately.
+Used Apache CXF to implement the REST API service. Defined and developed below mentioned two REST APIs to perform given specific tasks separately.
 
 1. Check if a given number is perfect
 
@@ -21,7 +21,7 @@ Used Apache CXF to implement the REST API service. Defined and developed below m
 
 2. Find all perfect numbers between a range (start-end)
 
-    GET /v1/perfectnumbers?starNumber={number}&endNumber={number}
+    GET /v1/perfectnumbers?startNumber={number}&endNumber={number}
 
 Response Type : JSON
 
@@ -29,7 +29,7 @@ base endpoint URL :http://localhost:8080/
 
 ## Design and implementation
 
-Used design patterns where its appropriate. Above two services objects are constructed by using factory pattern. RestServiceFactory provides the service objects based on the specific service type required at runtime.
+Used design patterns where its appropriate during implementation. Above two API services' objects are constructed by using factory pattern. RestServiceFactory provides the service objects based on the specific service type required at runtime.
 Leverage Apache CXF and used singleton resource provider which returns the same resource instance per every request. Thus resource consumption of the application will optimized.  
 
 Used OOP concepts, encapsulation and inheritance to increase the code reusability and extensibility as well as the privacy of data in instances.   
@@ -60,6 +60,11 @@ More methods being introduced by Junit5 to utilize for specific test scenarios i
 
 
 -  Enhance REST API helthcheck and monitoring, versioning and security. Improve documentation(using swagger) to improve readability.
+
+Specific to Apache CXF,
+- Simplicity and code first approach of Apache CXF allows build robust java REST APIs in both SOA and Microservice architectures. Feasible to write lightweight standard APIs.
+-  Recommend always follow best practice of Resources and URIs. In JAX-RS REST APIs resources are normally the nouns and coarse grained. Defining URIs should be descriptive, well structured and scoping information.
+-  Use Asynchronous client/server APIs to enhance the REST service throughput by non-blocking request handling. This would enhance the concurrency support when model operations are takes time.
 
 ## Limitations
 - Range of java long primitive to compute and find the next level of big prime numbers. Biginteger can be tried out for further attempt. 
