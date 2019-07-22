@@ -58,13 +58,15 @@ More methods being introduced by Junit5 to utilize for specific test scenarios i
   - assertThrows
   - assertTimeouts
 
-
--  Enhance REST API helthcheck and monitoring, versioning and security. Improve documentation(using swagger) to improve readability.
-
-Specific to Apache CXF,
-- Simplicity and code first approach of Apache CXF allows build robust java REST APIs in both SOA and Microservice architectures. Feasible to write lightweight standard APIs.
--  Recommend always follow best practice of Resources and URIs. In JAX-RS REST APIs resources are normally the nouns and coarse grained. Defining URIs should be descriptive, well structured and scoping information.
--  Use Asynchronous client/server APIs to enhance the REST service throughput by non-blocking request handling. This would enhance the concurrency support when model operations are takes time.
+-  Further enhancement of REST API, 
+   - Helthcheck and monitoring
+   - Versioning
+   - Security(use JAX-RS Token Authorization)
+   - Documentation(using swagger) to improve readability
+-  Specific to Apache CXF,
+   - Simplicity and code first approach of Apache CXF allows build robust java REST APIs in both SOA and Microservice architectures. Feasible to write lightweight standard java REST APIs without using framworks.
+   - In JAX-RS REST APIs resources are normally the nouns and coarse grained. Defining URIs should be descriptive, well structured and scoping information. Recommend always follow best practice of Resources and URIs.
+   - Use Asynchronous client/server APIs to enhance the REST service throughput by non-blocking request handling. This would enhance the concurrency support when model operations are takes time.
 
 ## Limitations
 - Range of java long primitive to compute and find the next level of big prime numbers. Biginteger can be tried out for further attempt. 
