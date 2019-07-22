@@ -1,6 +1,6 @@
 # perfectnumbers
 
-Briefly describes the design and implementation of perfect number computation REST API based on the thought process having in mind though the assignment.  
+Briefly describes the design and implementation of perfect number computation REST API based on the thought process having in mind thoughout the assignment.  
 Listed technology stack, design, coding, testing , CICD, further enhancements, limitations and recommendations.  
 
 ###### Technology Stack
