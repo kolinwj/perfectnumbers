@@ -39,7 +39,7 @@ Researched the implementation of perfect number theory. Tried both iteration (us
 
 ## Build and Run
 
-Used Gradle for the dependency management, build(compile) and run the project. Used updated stable latest versions of log4j2 for logs writing of the application.  Jetty embedded server firing up (TearUp and TearDown)  at the main application startup/end as well as similar Init methods being leverage when runs Junit integration testing to run the testsuite. 
+Used Gradle for the dependency management, build(compile) and run the project. Used log4j2 for logs writing of the application.  Jetty embedded server firing up (TearUp and TearDown)  at the main application startup/end as well as when runs Junit integration testing to run the testsuite. Leverage and reuse same server Init methods both testing and deployment.
 
 
 
