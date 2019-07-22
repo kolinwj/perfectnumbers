@@ -23,6 +23,8 @@ Used Apache CXF to implement the REST API service. Defined and developed below m
 
     GET /v1/perfectnumbers?starNumber={number}&endNumber={number}
 
+Respone : JSON
+
 base endpoint URL :http://localhost:8080/
 
 ## Design and implementation
