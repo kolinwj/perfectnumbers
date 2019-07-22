@@ -13,7 +13,7 @@ Listed technology stack, design, coding, testing , CICD, further enhancements, l
 
 ## REST Service 
 
-Used Apache CXF 3.3.2 to implement the REST API service. Defined and developed below mentioned two REST APIs to perform the given specific tasks separately.
+Used Apache CXF to implement the REST API service. Defined and developed below mentioned two REST APIs to perform the given specific tasks separately.
 
 1. Check if a given number is perfect
 
@@ -37,13 +37,13 @@ Researched the implementation of perfect number theory. Tried both iteration (us
 
 ## Build and Run
 
-Used Gradle for the dependency management, build(compile) and run the project. Used updated stable latest versions of log4j2 for logs writing of the application.  Jetty 3.3.2 embedded server firing up (TearUp and TearDown)  at the main application startup/end as well as similar Init methods being leverage when runs Junit integration testing to run the testsuite. 
+Used Gradle for the dependency management, build(compile) and run the project. Used updated stable latest versions of log4j2 for logs writing of the application.  Jetty embedded server firing up (TearUp and TearDown)  at the main application startup/end as well as similar Init methods being leverage when runs Junit integration testing to run the testsuite. 
 
 
 
 ## Testing and Verification
 
-Junit 4.2 used to implement unit and integration tests in the application. Both the APIs are being tested with basic functionalities.  Written a unit test case using parameterized to verify the first API code logic, which is the verification of given number is perfect or not. Utilized basic test starting that application is extendable to add more test units to strengthen the quality.
+Used Junit(4) to implement unit and integration tests in the application. Both the APIs are being tested with basic functionalities.  Written a unit test case using parameterized to verify the first API code logic, which is the verification of given number is perfect or not. Utilized basic test starting that application is extendable to add more test units to strengthen the quality.
 
 ## Recommendations and further optimizations
 
