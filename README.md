@@ -60,7 +60,7 @@ More methods being introduced by Junit5 to utilize for specific test scenarios i
 
 -  Further enhancement of REST API, 
    - Helthcheck and monitoring
-   - Versioning
+   - Versioning, use correlation-id/token in messages
    - Security(use JAX-RS Token Authorization)
    - Documentation(using swagger) to improve readability
 -  Specific to Apache CXF,
@@ -69,4 +69,4 @@ More methods being introduced by Junit5 to utilize for specific test scenarios i
    - Use Asynchronous client/server APIs to enhance the REST service throughput by non-blocking request handling. This would enhance the concurrency support when model operations are takes time.
 
 ## Limitations
-- Range of java long primitive to compute and find the next level of big prime numbers. Biginteger can be tried out for further attempt. 
+- Range of java long primitive to compute and find the next level of big perfect numbers. Biginteger can be tried out for further attempt. 
