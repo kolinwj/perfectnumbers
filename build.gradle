@@ -1,4 +1,4 @@
-group 'org.perfectnumbers'
+group 'codechallenge.perfectnumbers'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'application'
@@ -10,7 +10,7 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = "codechallange.perfectnumbers.ApplicationMain"
+mainClassName = "codechallenge.perfectnumbers.ApplicationMain"
 
 //sourceSets.main.java.srcDirs = ['src/main']
 
